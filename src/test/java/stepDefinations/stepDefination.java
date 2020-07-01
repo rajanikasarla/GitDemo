@@ -22,7 +22,8 @@ public class stepDefination {
         String title=driver.getTitle();
         System.out.println(title);
         System.out.println("changes done from gitstuff");
-        
+        System.out.println("changes done from develop brach");
+        System.out.println("changes done from develop branch");
         
 	}
 
@@ -38,6 +39,9 @@ public class stepDefination {
 	public void login_is(String arg1) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    System.out.println(arg1);
+	    System.out.println("changes done by asian team");
+	    
+	    
 	    
 	}
 
