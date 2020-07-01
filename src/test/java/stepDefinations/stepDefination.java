@@ -19,7 +19,10 @@ public class stepDefination {
 		System.setProperty("webdriver.chrome.driver", "C:\\\\chromedriver.exe");
 		 driver=new ChromeDriver();
 		driver.get("https://login.salesforce.com");
-
+        String title=driver.getTitle();
+        System.out.println(title);
+        
+        
 	}
 
 	@When("^user enter enters username as \"([^\"]*)\" and password as \"([^\"]*)\"$")
