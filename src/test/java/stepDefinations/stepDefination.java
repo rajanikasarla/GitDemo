@@ -21,6 +21,7 @@ public class stepDefination {
 		driver.get("https://login.salesforce.com");
         String title=driver.getTitle();
         System.out.println(title);
+        System.out.println("changes done from gitstuff");
         
         
 	}
@@ -37,6 +38,7 @@ public class stepDefination {
 	public void login_is(String arg1) throws Throwable {
 	    // Write code here that turns the phrase above into concrete actions
 	    System.out.println(arg1);
+	    
 	}
 
 	@Then("^Login \"([^\"]*)\" when i enter \"([^\"]*)\" user name and password$")
@@ -45,6 +47,8 @@ public class stepDefination {
 	    
 		System.out.println(arg1);
 		System.out.println(arg2);
+		System.out.println("changes done in Gitx");
+		
 	}
 
 	
